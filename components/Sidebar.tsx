@@ -31,8 +31,8 @@ const Sidebar = () => {
             </h3>
             <a 
                 className='flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500'
-                href='/assets/Pawornrat.pdf'
-                download='Pawornrat.pdf'
+                href='/assets/pawornrat.pdf'
+                download='pawornrat.pdf'
             >
                 <GrCertificate className='w-6 h-6' /> 
                 <span>Certificate</span>
