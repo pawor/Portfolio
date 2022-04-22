@@ -136,5 +136,16 @@ export const projects: IProject[] = [
     github_url: "https://github.com/pawor/starbucks-clone",
     category: ["react"],
     key_techs: ["React", "firebase", "framer motion"],
+  },
+  { 
+    id:3,
+    name: "pizza-restaurant",
+    description:
+      "pizza-restaurant web application and using paypal",
+    image_path: "/images/pizza.png",
+    deployed_url: "",
+    github_url: "https://github.com/pawor/pizza-restaurant",
+    category: ["react","mongo","Next.js"],
+    key_techs: ["React", "Next.js", "mongodb","paypal"],
   }
 ];
