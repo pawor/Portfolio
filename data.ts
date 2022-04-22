@@ -125,5 +125,16 @@ export const projects: IProject[] = [
     github_url: "https://github.com/pawor/Netflix-clone",
     category: ["react","Next.js"],
     key_techs: ["React", "Next.js", "Tailwind CSS", "firebase"],
+  },
+  { 
+    id:2,
+    name: "Starbucks-clone",
+    description:
+      "This app has feature same starbucks website",
+    image_path: "/images/starbucks-clone.png",
+    deployed_url: "https://starbucks-clone-fe327.web.app/",
+    github_url: "https://github.com/pawor/starbucks-clone",
+    category: ["react"],
+    key_techs: ["React", "firebase", "framer motion"],
   }
 ];

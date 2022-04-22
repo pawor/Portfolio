@@ -1,6 +1,7 @@
 import {AiFillGithub,AiFillLinkedin,AiFillFacebook} from 'react-icons/ai'
 import {GoLocation} from 'react-icons/go'
 import {GiTie} from 'react-icons/gi'
+import {GrCertificate} from 'react-icons/gr'
 import { useTheme } from 'next-themes'
 import Image from 'next/image'
 
@@ -28,9 +29,14 @@ const Sidebar = () => {
             <h3 className='my-4 text-3xl font-medium tracking-wider font-kaushan'>
                 <span className='text-rose'>Pawornrat</span> Tabchompoo
             </h3>
-            <p className='px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 dark:bg-black-500'>
-                Web Developer
-            </p>
+            <a 
+                className='flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500'
+                href='/assets/Pawornrat.pdf'
+                download='Pawornrat.pdf'
+            >
+                <GrCertificate className='w-6 h-6' /> 
+                <span>Certificate</span>
+            </a>
 
             <a 
                 className='flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500'
