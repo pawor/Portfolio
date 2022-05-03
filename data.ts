@@ -51,8 +51,8 @@ export const languages: ISkill[] = [
   },
   {
     Icon: BsCircleFill,
-    name: "Golang",
-    level: "70%",
+    name: "C#",
+    level: "80%",
   },
   {
     Icon: BsCircleFill,
