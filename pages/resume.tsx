@@ -41,7 +41,7 @@ const Resume = () => {
         <motion.div variants={fadeInUp} initial="initial" animate="animate">
           <h5 className="my-2 text-2xl font-bold">Experience</h5>
           <div>
-            <h3 className="my-2 text-xl font-bold">Assistant Engineer</h3>
+            <h3 className="my-2 text-xl font-bold">Internship</h3>
             <p className="font-semibold">Sony Technology (Thailand) Co., Ltd</p>
             <span className="my-0 font-sans text-sm">November 2021 - March 2022</span>
             
